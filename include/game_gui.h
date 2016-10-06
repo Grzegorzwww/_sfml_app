@@ -1,6 +1,9 @@
 #ifndef GAME_GUI_H
 #define GAME_GUI_H
 
+#include <iostream>
+#include <SFML/Window.hpp>
+
 
 class gameGui
 {

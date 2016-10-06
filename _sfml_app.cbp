@@ -36,7 +36,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="/usr/SFML-2.3.2/include" />
 		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="/usr/SFML-2.3.2/lib" />
+		</Linker>
 		<Unit filename="include/ThreadObject.h" />
 		<Unit filename="include/TimerObject.h" />
 		<Unit filename="include/app_engine.h" />
@@ -44,6 +51,7 @@
 		<Unit filename="include/collectData.h" />
 		<Unit filename="include/cserialport.h" />
 		<Unit filename="include/ctimer.h" />
+		<Unit filename="include/game_gui.h" />
 		<Unit filename="include/serialPort.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/app_engine.cpp" />
@@ -51,6 +59,7 @@
 		<Unit filename="src/collectData.cpp" />
 		<Unit filename="src/cserialport.cpp" />
 		<Unit filename="src/ctimer.cpp" />
+		<Unit filename="src/game_gui.cpp" />
 		<Unit filename="src/serialPort.cpp" />
 		<Extensions>
 			<code_completion />
