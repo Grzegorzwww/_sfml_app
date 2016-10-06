@@ -1,11 +1,22 @@
-#include "mainwindow.h"
-#include <QApplication>
+#include <iostream>
+#include "app_engine.h"
 
-int main(int argc, char *argv[])
+using namespace std;
+
+
+
+int main()
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    int i;
 
-    return a.exec();
+    app_engine *app = new app_engine();
+
+    app->createConnection("/dev/ttyUSB0");
+
+
+    while(1){
+    }
+
 }
+
+

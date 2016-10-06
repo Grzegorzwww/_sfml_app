@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1475653157 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/serialPort.cpp
+	"serialPort.h"
+
+1475654087 /home/gwarchol/codeblock_workspace/_sfml_app/include/serialPort.h
+	<termios.h>
+	<string>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<fcntl.h>
+	<unistd.h>
+
+1475665146 source:/home/gwarchol/codeblock_workspace/_sfml_app/main.cpp
+	<iostream>
+	"app_engine.h"
+
+1475750814 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/collectData.cpp
+	"collectData.h"
+
+1475754036 /home/gwarchol/codeblock_workspace/_sfml_app/include/collectData.h
+	<iostream>
+	"cserialport.h"
+	<string>
+	<vector>
+
+1475660843 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/cdelegate.cpp
+	"cdelegate.h"
+
+1475660717 /home/gwarchol/codeblock_workspace/_sfml_app/include/cdelegate.h
+	<iostream>
+
+1475658998 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/cserialport.cpp
+	<termios.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdlib.h>
+	<unistd.h>
+	<dirent.h>
+	<iostream>
+	<regex>
+	"cserialport.h"
+
+1462873596 /home/gwarchol/codeblock_workspace/_sfml_app/include/cserialport.h
+	<map>
+	<vector>
+	<list>
+	"ThreadObject.h"
+	"cdelegate.h"
+
+1457607824 /home/gwarchol/codeblock_workspace/_sfml_app/include/ThreadObject.h
+	<asm-generic/errno-base.h>
+	<string>
+	<iostream>
+	<cerrno>
+	<pthread.h>
+	<sched.h>
+	<string.h>
+	<unistd.h>
+
+1458197592 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/ctimer.cpp
+	"ctimer.h"
+
+1462873604 /home/gwarchol/codeblock_workspace/_sfml_app/include/ctimer.h
+	<vector>
+	"TimerObject.h"
+	"cdelegate.h"
+
+1475658430 /home/gwarchol/codeblock_workspace/_sfml_app/include/TimerObject.h
+	<iostream>
+	<cstdint>
+	<cstring>
+	<cstdio>
+	<csignal>
+	<time.h>
+	<cerrno>
+	<sys/types.h>
+	<pthread.h>
+
+1475753881 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/app_engine.cpp
+	"app_engine.h"
+
+1475753599 /home/gwarchol/codeblock_workspace/_sfml_app/include/app_engine.h
+	<iostream>
+	<string>
+	"cdelegate.h"
+	"cserialport.h"
+	"TimerObject.h"
+	"collectData.h"
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/epoll.h>
+	"game_gui.h"
+
+1475753593 /home/gwarchol/codeblock_workspace/_sfml_app/include/game_gui.h
+
+1475753381 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/game_gui.cpp
+	"game_gui.h"
+
