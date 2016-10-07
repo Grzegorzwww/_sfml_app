@@ -3,18 +3,31 @@
 
 app_engine::app_engine()
 {
+
+
+
      collected_data = new collectData();
      game_gui = new gameGui();
+
+
+     keyboard_events = new keyboardEvents(game_gui->returnAppWindow());
+
+
+
 
 }
 app_engine::~app_engine()
 {
-    //dtor
+
 }
 void app_engine::run(void){
 
+    game_gui->run();
+    keyboard_events->run();
 
 
+    //game_gui->run_();
+    //pthread_create(&gui_thread, NULL, &gameGui::run_gui, &game_gui);
 
 
 }

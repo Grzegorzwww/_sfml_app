@@ -11,7 +11,7 @@
 	<fcntl.h>
 	<unistd.h>
 
-1475665146 source:/home/gwarchol/codeblock_workspace/_sfml_app/main.cpp
+1475834602 source:/home/gwarchol/codeblock_workspace/_sfml_app/main.cpp
 	<iostream>
 	"app_engine.h"
 
@@ -82,10 +82,10 @@
 	<sys/types.h>
 	<pthread.h>
 
-1475753881 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/app_engine.cpp
+1475842304 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/app_engine.cpp
 	"app_engine.h"
 
-1475753599 /home/gwarchol/codeblock_workspace/_sfml_app/include/app_engine.h
+1475838539 /home/gwarchol/codeblock_workspace/_sfml_app/include/app_engine.h
 	<iostream>
 	<string>
 	"cdelegate.h"
@@ -96,12 +96,13 @@
 	<sys/resource.h>
 	<sys/epoll.h>
 	"game_gui.h"
+	"keyboard_events.h"
 
-1475755575 /home/gwarchol/codeblock_workspace/_sfml_app/include/game_gui.h
+1475844223 /home/gwarchol/codeblock_workspace/_sfml_app/include/game_gui.h
 	<iostream>
 	<SFML/Window.hpp>
 
-1475755615 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/game_gui.cpp
+1475838520 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/game_gui.cpp
 	"game_gui.h"
 
 1456384243 /usr/SFML-2.3.2/include/SFML/Window.hpp
@@ -298,4 +299,11 @@
 	<SFML/Config.hpp>
 
 1456384243 /usr/SFML-2.3.2/include/SFML/Window/WindowStyle.hpp
+
+1475844223 /home/gwarchol/codeblock_workspace/_sfml_app/include/keyboard_events.h
+	<iostream>
+	<SFML/Window.hpp>
+
+1475842462 source:/home/gwarchol/codeblock_workspace/_sfml_app/src/keyboard_events.cpp
+	"keyboard_events.h"
 

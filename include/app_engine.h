@@ -12,6 +12,7 @@
 #include <sys/resource.h>
 #include <sys/epoll.h>
 #include "game_gui.h"
+#include "keyboard_events.h"
 
 
 
@@ -34,6 +35,12 @@ class app_engine
         CSerialPort *serial;
         collectData *collected_data;
         gameGui *game_gui;
+        keyboardEvents *keyboard_events;
+
+        pthread_t gui_thread;
+
+
+
 
     protected:
 };

@@ -52,6 +52,7 @@
 		<Unit filename="include/cserialport.h" />
 		<Unit filename="include/ctimer.h" />
 		<Unit filename="include/game_gui.h" />
+		<Unit filename="include/keyboard_events.h" />
 		<Unit filename="include/serialPort.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/app_engine.cpp" />
@@ -60,6 +61,7 @@
 		<Unit filename="src/cserialport.cpp" />
 		<Unit filename="src/ctimer.cpp" />
 		<Unit filename="src/game_gui.cpp" />
+		<Unit filename="src/keyboard_events.cpp" />
 		<Unit filename="src/serialPort.cpp" />
 		<Extensions>
 			<code_completion />
